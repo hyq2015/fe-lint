@@ -1,6 +1,6 @@
 {
   "name": "fe-code-lint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "front-end code lint",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/hyq2015/fe-lint.git"
   },
-  "keywords": [],
+  "keywords": ["code-lint"],
   "author": "RickyHuang",
   "license": "MIT",
   "bugs": {

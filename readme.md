@@ -9,7 +9,7 @@ npm install fe-lint --save-dev
 
 let dftCfg, cfg;
 
-dftCfg = require("fe-lint/eslint/.eslintrc");
+dftCfg = require("fe-code-lint/eslint/.eslintrc");
 cfg = Object.assign({}, dftCfg, {
     root: true,
     parser: "babel-eslint",
@@ -27,11 +27,12 @@ module.exports = cfg;
 ```
 // path/to/yourproject/.stylelintrc.js
 
-const cfg = require("gs-lint/stylelint/.stylelintrc");
+const cfg = require("fe-code-lint/stylelint/.stylelintrc");
 module.exports = Object.assign({}, cfg);
 ```
 
-> add below scripts commands to your package.json file
+> add below commands to your package.json file
+
 ```
 "scripts": {
     "eslint": "eslint --ext .js,.vue src",
@@ -39,3 +40,5 @@ module.exports = Object.assign({}, cfg);
 }
 
 ```
+### detail config
+[https://cn.eslint.org/docs/user-guide/configuring](https://cn.eslint.org/docs/user-guide/configuring)
