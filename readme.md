@@ -9,7 +9,7 @@ npm install fe-lint --save-dev
 
 let dftCfg, cfg;
 
-dftCfg = require("fe-code-lint/eslint/.eslintrc");
+dftCfg = require("fe-code-lint/src/eslint/.eslintrc");
 cfg = Object.assign({}, dftCfg, {
     root: true,
     parser: "babel-eslint",
@@ -27,7 +27,7 @@ module.exports = cfg;
 ```
 // path/to/yourproject/.stylelintrc.js
 
-const cfg = require("fe-code-lint/stylelint/.stylelintrc");
+const cfg = require("fe-code-lint/src/stylelint/.stylelintrc");
 module.exports = Object.assign({}, cfg);
 ```
 
