@@ -1,6 +1,6 @@
 {
   "name": "fe-code-lint",
-  "version": "0.0.21",
+  "version": "0.0.3",
   "description": "front-end code lint",
   "main": "index.js",
   "scripts": {
