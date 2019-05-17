@@ -44,7 +44,7 @@ module.exports = {
         // https://goo.gl/jBOk1t
         "camelcase": "error",
         // https://goo.gl/CraU5J
-        "space-before-function-paren": ["error", "always"],
+        "space-before-function-paren": ["error", "never"],
         // https://goo.gl/nwEFv7
         "spaced-comment": ["error", "always"],
         // https://goo.gl/pBBYO8
